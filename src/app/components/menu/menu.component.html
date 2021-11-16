@@ -1,0 +1,13 @@
+<table class="menu">
+  <tr *ngIf="isGameOver()" (click)="onRestart()">
+    <td>{{getGameOverText()}}</td>
+  </tr>
+  <tr *ngIf="isPlayer1Turn()">
+    <td class="player1">Player1</td>
+    <td>Player2</td>
+  </tr>
+  <tr *ngIf="isPlayer2Turn()">
+    <td>Player1</td>
+    <td class="player2">Player2</td>
+  </tr>
+</table>

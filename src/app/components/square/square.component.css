@@ -1,0 +1,10 @@
+.square {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 3px black inset;
+}
+
+.winning-square {
+  box-shadow: 0px 0px 0px 10px black inset;
+}

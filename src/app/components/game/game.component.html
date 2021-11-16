@@ -1,0 +1,12 @@
+<div class="container">
+  <table class="board">
+    <tr *ngFor="let row of game.board">
+      <app-square *ngFor="let square of row" [square]="square" (mouseOverEvent)="onMouseOver(square)"
+        (mouseOutEvent)="onMouseOut(square)" (clickEvent)="onClick(square)" [turn]="game.turn"></app-square>
+    </tr>
+  </table>
+</div>
+<div class="container">
+  <app-menu [turn]="game.turn" [winner]="game.winner" (onRestartEvent)="onRestart()">
+  </app-menu>
+</div>

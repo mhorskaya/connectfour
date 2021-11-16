@@ -1,0 +1,25 @@
+.menu {
+  margin-top: 20px;
+  padding: 10px 6px;
+  color: white;
+  background-color: #2e5984;
+  border-spacing: 6px 2px;
+  border-radius: 12px;
+  min-width: 680px;
+  font-size: 36px;
+  text-align: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.player1 {
+  color: white;
+  background-color: red;
+  border-radius: 8px;
+}
+
+.player2 {
+  color: black;
+  background-color: yellow;
+  border-radius: 8px;
+}
