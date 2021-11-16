@@ -8,11 +8,8 @@ export class Game {
   isOver: boolean;
   winner: Player | undefined;
 
-  private redCount: number = 21;
-  private yellowCount: number = 21;
-
-  private static readonly ROWS: number = 6;
-  private static readonly COLS: number = 7;
+  public static readonly ROWS: number = 6;
+  public static readonly COLS: number = 7;
 
   constructor() {
     this.board = [];
